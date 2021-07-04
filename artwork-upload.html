@@ -1,0 +1,538 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="https://www.badabusiness.com/images/favicon.ico">
+  <title>Artweb</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/media.css" /> 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body> 
+
+<!-- header stlatested -->
+<header class="header_p">
+	<div class="navigation-wrap bg-light stlatest-header stlatest-style">
+		<div class="container-fluid mob-menu-width">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light"> 
+						<a class="navbar-brand" data-aos="fade-right" data-aos-delay="300" href="https://themeforest.net/user/ig_design/portfolio" target="_blank"><img src="images/logo_main.png" alt=""></a>	
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+                
+                <div class="searchbar" data-aos="fade-left" data-aos-delay="400">
+                  <input class="search_input" type="text" name="" placeholder="Search any artist or artwork here...">
+                  <a href="#" class="search_icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+                </div>
+
+
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 p-2 active" data-aos="fade-left" data-aos-delay="500">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="about-us.html">Menu One</a>
+										<a class="dropdown-item" href="#">Menu Two</a>
+									</div>
+								</li>
+                 
+                <span class="p-3 pl-3 pr-3" data-aos="fade-left" data-aos-delay="600">
+                  <a href="#" class="pr-2">Login </a>
+                  |
+                  <a href="#" class="pl-2">Sign up </a> 
+                </span>
+               
+                <a href="#" class="d-inline-block cart text-dark" data-aos="fade-left" data-aos-delay="700">
+                  <img src="images/cart.svg" class="img-fluid">
+                  <span>Cart</span>
+                  0
+                </a> 
+
+                
+							</ul>
+						</div>
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div> 
+</header> 
+<!-- header end -->
+
+
+ <section class="artedit mt-5">
+  <div class="container">
+
+    <div class="row">
+       <div class="col-sm-12">
+         <div class="m_container">
+          <div class="form-group">
+            <h3>Artwork Title</h3>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="What is  your artwork called"> 
+          </div>
+
+         </div>         
+       </div> 
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="m_container">
+          <h3 class="col-sm-12 col-12 row d-block mb-3">Upload Media Files</h3>
+          <div class="icon_ipload">
+            <img src="images/images_upload.svg" class="img-fluid">
+            <h5>HQ Images</h5>
+            <span></span>
+          </div>
+
+          <div class="icon_ipload">
+            <img src="images/Video_clip.svg" class="img-fluid">
+            <h5>Video Clip</h5>
+            <span></span>
+          </div>
+
+          <div class="icon_ipload">
+            <img src="images/marmoset_viewer.svg" class="img-fluid">
+            <h5>360 Pano</h5>
+            <span></span>
+          </div>
+
+          <div class="icon_ipload">
+            <img src="images/360view.svg" class="img-fluid">
+            <h5>Marmoset Viewer</h5>
+            <span></span>
+          </div>
+
+          <div class="row text-center mt-5">
+            <div class="col-md-12"><h5 for="file">Choose Image or Drag and Drop Here</h5></div>	
+            <div class="col-md-12"><input type="file" id="file" class="multiSelect"  onchange="handleFileSelect()" multiple="multiple" accept="image/*"/></div>	
+            
+          </div>
+
+        </div>         
+      </div> 
+   </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="m_container">
+          <div class="form-group">
+            <h3>Artwork Description</h3>
+            
+
+            <div id="editparent">
+              <div id='editControls' style='text-align:center; padding:5px;'>
+                <div class='btn-group'>
+                  <a class='btn' data-role='undo' href='javascript:void(0)'><i class="fa fa-undo" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='redo' href='javascript:void(0)'><i class="fa fa-repeat" aria-hidden="true"></i></a>
+                </div>
+                <div class='btn-group'>
+                  <a class='btn' data-role='bold' href='javascript:void(0)'><i class="fa fa-bold" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='italic' href='javascript:void(0)'><i class="fa fa-italic" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='underline' href='javascript:void(0)'><i class="fa fa-underline" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='strikeThrough' href='javascript:void(0)'><strike>abc</strike></a>
+                </div>
+                <div class='btn-group'>
+                  <a class='btn' data-role='justifyLeft' href='javascript:void(0)'><i class="fa fa-align-left" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='justifyCenter' href='javascript:void(0)'><i class="fa fa-align-center" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='justifyRight' href='javascript:void(0)'><i class="fa fa-align-right" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='justifyFull' href='javascript:void(0)'><i class="fa fa-align-justify" aria-hidden="true"></i></a>
+                </div>
+                <div class='btn-group'>
+                  <a class='btn' data-role='indent' href='javascript:void(0)'><i class="fa fa-align-right" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='outdent' href='javascript:void(0)'><i class="fa fa-align-left" aria-hidden="true"></i></a>
+                </div>
+                <div class='btn-group'>
+                  <a class='btn' data-role='insertUnorderedList' href='javascript:void(0)'><i class="fa fa-list-ul" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='insertOrderedList' href='javascript:void(0)'><i class="fa fa-list-ol" aria-hidden="true"></i></a>
+                </div>
+                <div class='btn-group'>
+                  <a class='btn' data-role='h1' href='javascript:void(0)'><i class="fa fa-header" aria-hidden="true"></i><sup>1</sup></a>
+                  <a class='btn' data-role='h2' href='javascript:void(0)'><i class="fa fa-header" aria-hidden="true"></i><sup>2</sup></a>
+                  <a class='btn' data-role='p' href='javascript:void(0)'>p</a>
+                </div>
+                <div class='btn-group'>
+                  <a class='btn' data-role='subscript' href='javascript:void(0)'><i class="fa fa-subscript" aria-hidden="true"></i></a>
+                  <a class='btn' data-role='superscript' href='javascript:void(0)'><i class="fa fa-superscript" aria-hidden="true"></i>"</a>
+                </div>
+              </div>
+              <div id='editor' contenteditable>
+                <p></p>
+              </div> 
+            </div>
+          </div>
+
+        </div>         
+      </div> 
+   </div>
+
+   <div class="row">
+    <div class="col-sm-12">
+      <div class="m_container">
+        <div class="form-group">
+          <h3 class="col-sm-12 col-12 row d-block mb-3">Medium</h3>
+          <small>What Medium did you use to create this project ( Choose upto 3)</small> 
+        </div> 
+
+        <div class="row p-3 col-sm-12 col-12">
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Digital 2D</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Digital 3D</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Animation</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Real Time</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Live Action CG/VFX</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>3D Printing</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Traditional Link</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Traditional Dry Media</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Traditional Paint</b></small></label>
+          </div>
+  
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Traditional Sculpture</b></small></label>
+          </div>
+
+          <div class="form-check col-sm-4 col-6 mb-1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><small><b>Mixed Media</b></small></label>
+          </div>
+
+        </div> 
+      </div>         
+    </div> 
+  </div>
+
+  
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="m_container">
+        <div class="row">
+          <div class="col-sm-6 col-12">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><b>Select a Category</b></label>
+              <select id="multiselect" multiple>
+                <option value="value 1">JavaScript</option>
+                <option value="value 2">CSS3</option>
+                <option value="value 3">HTML5</option>
+                <option value="value 4">1</option>
+                <option value="value 5">2</option>
+                <option value="value 6">3</option>
+                <option value="value 7">4</option>
+                <option value="value 8">5</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-sm-6 col-12">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"><b>Software</b></label>
+              <select id="multiselect_two" multiple>
+                <option value="value 1">JavaScript</option>
+                <option value="value 2">CSS3</option>
+                <option value="value 3">HTML5</option>
+                <option value="value 4">1</option>
+                <option value="value 5">2</option>
+                <option value="value 6">3</option>
+                <option value="value 7">4</option>
+                <option value="value 8">5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="col-sm-12 col-12 row d-block mb-3">Tags</h3>
+        <div class="form-group">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please Add Tags"></textarea>
+        <small>Example :  #2dart #3dart</small><br>
+        <a href="javascriptvoid(0)" class="text-primary">Use Previous Publish Project Tags</a>
+      </div>
+    </div>
+  </div>    
+    
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="m_container">
+        <h2><b>Projects</b></h2>
+        <div class="row mt-3">
+          
+          <div class="col-sm-12 col-12">
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>Project Name</b></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Project Name"> 
+            </div>
+          </div>
+          <div class="col-sm-12 col-12">
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>Project Description</b></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
+            </div>
+          </div>
+ 
+
+          <div class="col-sm-6 col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                <b>IsActive</b>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                <b>IsAvailableForSale</b>
+              </label>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6 col-12 mt-3">
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>SalePrice</b></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Project Name"> 
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-12 mt-3">
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>Sale Currency</b></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Rupees</option>
+                <option>Dollar</option>
+                
+              </select>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-12">
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>IsAnyDiscountApplicable</b></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Project Name"> 
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-12">
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>Discount Percentage</b></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Project Name"> 
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-12">
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>Direct Discount</b></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Project Name"> 
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-12">
+            <div class="form-group">
+              <label for="exampleFormControlFile1"><b>Project Thumbnail</b></label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-12">
+            <a href="#" class="btn btn-danger pl-3 pr-3">Publish</a>
+          </div>
+          
+
+        </div> 
+      </div>
+    </div>
+    
+  </div>     
+  </div>  
+  
+  
+
+</section>
+
+ 
+
+<footer class="footer-classic">
+  <div class="container">
+    <div class="row row-30">
+      <div class="col-sm-12 mb-3"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/logo_main.png" alt=""  ></a></div>
+      <div class="col-md-12 col-sm-12 col-12">
+        <h5>Top Searched latestist:</h5> 
+        <ul class="nav-list">
+          <li><a href="#">Apple Inc, </a></li>
+          <li><a href="#">OnePlus, </a></li>
+          <li><a href="#">MSI, </a></li>
+          <li><a href="#">HDFC Bank, </a></li>
+          <li><a href="#">Apple Inc, </a></li>
+          <li><a href="#">OnePlus, </a></li>
+          <li><a href="#">MSI, </a></li>
+          <li><a href="#">HDFC Bank, </a></li>
+          <li><a href="#">Apple Inc, </a></li>
+          <li><a href="#">OnePlus, </a></li>
+          <li><a href="#">MSI, </a></li>
+          <li><a href="#">HDFC Bank, </a></li>
+          <li><a href="#">Apple Inc, </a></li>
+          <li><a href="#">OnePlus, </a></li>
+          <li><a href="#">MSI, </a></li>
+          <li><a href="#">HDFC Bank, </a></li>
+          <li><a href="#">KFC</a></li>
+        </ul> 
+      </div>
+
+      <div class="col-md-6 col-sm-6 col-6 mt-3">
+        <h5>Contact Us</h5> 
+        <ul class="nav-list">
+          <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Humayunpur SafdarJung &nbsp; New Delhi 110029</a></li><br>
+          <li>  <a href="tel:9825471090"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;9825471090</a></li>  
+          <li><a href="mailto:abcd@example.com"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;abcd@example.com</a></li>
+        </ul> 
+      </div> 
+      <div class="col-md-6 col-sm-6 col-6 mt-3">
+        <h5>Social Media</h5>
+        <ul class="nav-list">
+          <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;&nbsp;Facebook</a></li>
+          <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;instagram</a></li>
+          <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;&nbsp;twitter</a></li>
+          <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;Linkedin</a></li>
+        </ul>
+        
+      </div>
+      
+      
+    </div>
+  </div>
+  <div class="row no-gutters social-container">
+    
+  </div>
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script> 
+<script  src="js/custom.js"></script> 
+<script  src="js/imageuploadify.js"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.18.10/slimselect.min.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+  $(document).ready(function() {
+    var x = new SlimSelect({
+    select: '#multiselect'
+    });
+  }); 
+</script>
+
+<script>
+  $(document).ready(function() {
+    var x = new SlimSelect({
+    select: '#multiselect_two'
+    });
+  }); 
+</script>
+
+
+<script>
+  $(document).ready(function() {
+    $('input[type="file"]').imageuploadify();
+})
+
+
+function handleFileSelect() {
+ 
+  if (window.File && window.FileReader && window.FileList && window.Blob) {
+    var files = document.querySelector("#file.multiSelect").files;
+    var reader = new FileReader();
+    var x = 0;   
+    function loadFile(result) {
+      img = $('<img src="' + reader.result + '"/>');
+      $("#images").append(img);
+    }
+    reader.onloadend = function() {
+      loadFile(reader.result);
+      x++;
+      if (x < files.length && files[x]) reader.readAsDataURL(files[x]);
+    };
+    if (files[x]) {
+      reader.readAsDataURL(files[x]);
+    }
+  } else {
+    alert("The File APIs are not fully supported in this browser.");
+  }
+}
+</script>
+
+<script>
+  $(function() {
+  $('#editControls a').click(function(e) {
+    switch($(this).data('role')) {
+      case 'h1':
+      case 'h2':
+      case 'p':
+        document.execCommand('formatBlock', false, $(this).data('role'));
+        break;
+      default:
+        document.execCommand($(this).data('role'), false, null);
+        break;
+    } 
+  });
+});
+
+</script>
+
+</body>
+</html>
